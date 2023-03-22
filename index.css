@@ -1,6 +1,207 @@
 * {
     margin: 0;
     padding: 0;
+       box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************** nav bar start ********************/
+
+.first-navbar-e{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 5rem;
+    background-color: #313E4E;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-items-e i{
+    padding: 0 0.8rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.nav-items-e span{
+    color: #64D3B3;
+}
+
+.nav-items-e a{
+    padding: 0 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons-e{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.second-navbar-e{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.second-navbar-e .logo-e{
+    margin: 1rem 5rem;
+    text-transform: uppercase;
+    color: #313E4E;
+    letter-spacing: 0.1rem;
+}
+
+.second-navbar-e .logo-e span{
+    color: #64D3B3;
+}
+
+.nav-items-e-2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #313E4E;
+    font-size: 0.9rem;
+    padding-right: 1.4rem;
+}
+
+.nav-items-e-2 i{
+    color: #313E4E;
+    border: 0.1rem solid;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+.nav-items-e-2 i:hover{
+    color: #64D3B3;
+}
+
+.nav-items-e-2 a:hover{
+    color: #64D3B3;
+}
+
+/*********************** nav bar end ********************/
+
+/*********************** hero section start ********************/
+
+.hero-section-e{
+    background-image: linear-gradient(0deg, rgba(49, 62, 78, 0.6), rgba(49, 62, 78, 0.6)), url(https://cdn.pixabay.com/photo/2020/06/18/11/27/landscape-5313115_1280.jpg);
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-section-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.hero-section-text h1{
+    text-transform: uppercase;
+}
+
+.hero-section-text p{
+    letter-spacing: 0.1rem;
+}
+
+.buttons-e{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+}
+
+.buttons-e{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.btn-1{
+    color: #fff;
+    background: #64D3B3;
+    border: 2px solid #64D3B3;
+    padding: 0.8rem 0.6rem;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.btn-2{
+    color: #fff;
+    background: transparent;
+    padding: 0.8rem 0.6rem;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+/*********************** hero section end ********************/
+
+#background {
+    background-image: url('images\\photo-1634148551170-d37d021e0cc9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1593px;
+    height: 493px;
+    overflow: hidden;
+    z-index: 0.5%;
+
+}
+
+h2 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+h4 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 32%;
+}
+.icon {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    gap: 25%;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
 }
 
 .cards {
@@ -47,10 +248,5 @@
 }
 
 
-
-
-
-
-
-
+   
 
