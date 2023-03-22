@@ -5,6 +5,52 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#background {
+    background-image: url('images\\photo-1634148551170-d37d021e0cc9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1593px;
+    height: 493px;
+    overflow: hidden;
+    z-index: 0.5%;
+
+}
+
+h2 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+h4 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 32%;
+}
+
+
+
+.icon {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    gap: 25%;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+}
+   
+
 /*********************** nav bar start ********************/
 
 .first-navbar-e{
